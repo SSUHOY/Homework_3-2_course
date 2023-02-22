@@ -1,8 +1,4 @@
-let d = 102;
-let e = 5;
+let a = Number('2');
+let b = Number('3');
 
-if (d > 100 || e > 100) {
-    console.log('Верно');
-} else {
-    console.log('Неверно')
-}
+alert(a + b);
