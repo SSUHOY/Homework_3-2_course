@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .center {
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
@@ -59,8 +63,9 @@ body {
         align-items: center;
         color: #FFFFFF;
         transition: all .5s;
+
         &:hover {
-            background: rgba(0,0,0,0);
+            background: rgba(0, 0, 0, 0);
             color: #3a7999;
             box-shadow: inset 0 0 0 3px #3a7999;
         }
@@ -84,6 +89,18 @@ body {
         }
     }
 }
+
+.product {
+    transition: all .5s;
+    box-sizing: border-box;
+
+    &:hover {
+        transform: scale(1.06);
+        cursor: pointer;
+    }
+}
+
+
 
 .gametext {
     font-family: 'Montserrat';
