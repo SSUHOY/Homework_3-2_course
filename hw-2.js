@@ -1,4 +1,13 @@
-let a = Number('2');
-let b = Number('3');
+let monthNumber = 12;
 
-alert(a + b);
+switch (monthNumber) {
+    case 1:
+        alert('Зима');
+        break;
+    case 2:
+        console.log('Зима');
+        break;
+    default:
+        console.log('Ввел что-то не то');
+        break;
+}
