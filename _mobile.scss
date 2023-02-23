@@ -1,0 +1,36 @@
+@media (max-width: 376px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .mainpage {
+        justify-content: center;
+
+        &__content {
+            text-align: center;
+        }
+
+        &__title {
+            font-size: 32px;
+            line-height: 39px;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+
+    .product {
+        &__img {
+            width: 343px;
+            height: 300px;
+        }
+    }
+
+    .gametext {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}

@@ -98,4 +98,59 @@ body {
   position: relative;
   left: 32px;
   bottom: 64px;
+}
+
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+  }
+}
+@media (min-width: 375px) and (max-width: 833px) {
+  .center {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .mainpage {
+    justify-content: center;
+  }
+  .mainpage__content {
+    text-align: center;
+  }
+  .mainpage__title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .mainpage__text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 376px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .mainpage {
+    justify-content: center;
+  }
+  .mainpage__content {
+    text-align: center;
+  }
+  .mainpage__title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .mainpage__text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .product__img {
+    width: 343px;
+    height: 300px;
+  }
+  .gametext {
+    font-size: 24px;
+    line-height: 32px;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -93,7 +93,6 @@ body {
 .product {
     transition: all .5s;
     box-sizing: border-box;
-
     &:hover {
         transform: scale(1.06);
         cursor: pointer;
