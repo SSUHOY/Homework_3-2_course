@@ -4,9 +4,13 @@
         padding-right: 16px;
     }
 
+    .top {
+        width: 375px;
+        height: 735px;
+    }
+
     .mainpage {
         justify-content: center;
-
         &__content {
             text-align: center;
         }
@@ -19,6 +23,12 @@
         &__text {
             font-size: 14px;
             line-height: 22px;
+        }
+    }
+
+    .footer {
+        &__mainpage {
+            width: 375px;
         }
     }
 

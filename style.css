@@ -12,13 +12,16 @@ button:hover {
   padding-right: calc(50% - 600px);
 }
 
-body {
+.top {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(img/background_mainpage.png);
-  background-repeat: none;
   background-position: center;
   background-size: cover;
+  height: 1024px;
 }
 
+.mainpage {
+  margin-bottom: 128px;
+}
 .mainpage__content {
   padding-top: 217px;
 }
@@ -65,16 +68,13 @@ body {
   box-shadow: inset 0 0 0 3px #3a7999;
 }
 
-.footer {
-  height: 556px;
-}
 .footer__mainpage {
-  padding-top: 493px;
+  background-color: #000915;
+  background-size: cover;
 }
 .footer__mainpage-content {
   display: flex;
   gap: 32px;
-  padding-bottom: 128px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -131,6 +131,10 @@ body {
     padding-left: 16px;
     padding-right: 16px;
   }
+  .top {
+    width: 375px;
+    height: 735px;
+  }
   .mainpage {
     justify-content: center;
   }
@@ -144,6 +148,9 @@ body {
   .mainpage__text {
     font-size: 14px;
     line-height: 22px;
+  }
+  .footer__mainpage {
+    width: 375px;
   }
   .product__img {
     width: 343px;
