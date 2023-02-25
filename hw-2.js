@@ -1,9 +1,8 @@
-let value = Number(prompt('Пожалуйста, введите любое число'));
+let attention = alert('У нашего банка есть приложение');
+let clientOS = prompt('Укажите вашу операционную систему');
 
-if (isNaN(value)) {
-    alert('Нужно писать число');
-} else if (value % 2 === 0) {
-    alert('Это число четное');
-} else {
-    alert('Это число нечетное')
+if (clientOS === '1') {
+    console.log('Установите версию приложения для iOS по ссылке');
+} else if (clientOS === '0') {
+    console.log('Установите версию приложения для Android по ссылке');
 }
