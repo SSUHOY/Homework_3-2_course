@@ -29,3 +29,19 @@ const obj = {
 for (const item in obj) {
     alert(`${item} - зарплата ${obj[item]} долларов`)
 }
+
+
+let n = 1000;
+let num = 0;
+
+while (true) {
+  if (n > 50) {
+    n = n / 2;
+    console.log(n);
+    num++;
+  } if (n < 50) {
+    break
+  }
+}
+
+console.log('Выполнено ' + num + ' итераций');
