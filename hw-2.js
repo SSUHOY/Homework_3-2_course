@@ -7,7 +7,7 @@ if (password === askuser) {
     alert('Пароль введен неправильно');
 }
 
-let c = -3;
+let c = 2;
 if (c > 0 && c < 10) {
     console.log('Верно');
 } else {
