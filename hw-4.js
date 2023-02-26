@@ -11,3 +11,12 @@ do {
     console.log(b);
     b++;
 } while (b < 6);
+
+
+
+let c = 7;
+
+do {
+    console.log(c);
+    c++;
+} while (c < 23);
