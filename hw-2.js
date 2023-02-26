@@ -13,5 +13,3 @@ if (clientOS === '1' && askYear >= clientDeviceYear) {
 } else if (clientOS === '0' && askYear >= clientDeviceYear) {
     alert('Установите версию приложения для Android по ссылке')
 }
-
-
