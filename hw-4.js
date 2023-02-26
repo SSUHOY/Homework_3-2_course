@@ -45,3 +45,13 @@ while (true) {
 }
 
 console.log('Выполнено ' + num + ' итераций');
+
+
+let day = 1;
+
+for ( ; day <= 31 ; day++) {
+    if (day % 5 == 0) {
+        console.log(`Сегодня пятница ${day}-е, нужно подготовить отчет`);
+        continue
+    }
+}
