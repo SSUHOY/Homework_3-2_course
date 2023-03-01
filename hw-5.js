@@ -15,7 +15,7 @@ function value(a) {
     return a % 2
 }
 
-let result = (Number(value(32)));
+let result = (Number(value(29)));
 
 if (result === 0) {
     alert('Это число четное')
