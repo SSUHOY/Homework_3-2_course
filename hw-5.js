@@ -7,3 +7,5 @@ function comparison(a , b) {
 }
 
 comparison(8 , 4);
+comparison(4 , 4);
+comparison(6 , 6);
