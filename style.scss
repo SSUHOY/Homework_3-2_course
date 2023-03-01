@@ -65,6 +65,7 @@ button:hover {
         align-items: center;
         color: #FFFFFF;
         transition: all .5s;
+
         &:hover {
             background: rgba(0, 0, 0, 0);
             color: #3a7999;
@@ -75,7 +76,7 @@ button:hover {
 
 
 
-.footer {
+.productRange {
     &__mainpage {
         background-color: #000915;
         background-size: cover;
@@ -88,6 +89,7 @@ button:hover {
         }
     }
 }
+
 .product {
     transition: all .5s;
     box-sizing: border-box;
@@ -97,8 +99,6 @@ button:hover {
         cursor: pointer;
     }
 }
-
-
 
 .gametext {
     font-family: 'Montserrat';
@@ -110,6 +110,34 @@ button:hover {
     position: relative;
     left: 32px;
     bottom: 64px;
+}
+
+.main__footer {
+    height: 800px;
+    background: #000915;
+}
+
+.content {
+    &__box {
+        &-title {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 59px;
+            color: #FFFFFF;
+            gap: 32px;
+        }
+
+        &-text {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 32px;
+            color: #FFFFFF;
+        }
+    }
 }
 
 @import 'vars';
