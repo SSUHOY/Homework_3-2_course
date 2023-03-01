@@ -1,3 +1,9 @@
-let a = Number('2');
-let b = Number('3');
-alert(a + b);
+function comparison(a , b) {
+    if (a > b) {
+        alert(b);
+    } else {
+       alert(a);  
+    }
+}
+
+comparison(8 , 4);
