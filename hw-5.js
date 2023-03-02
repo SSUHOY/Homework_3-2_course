@@ -60,13 +60,16 @@ function checkValues() {
     let a = prompt('Введите число');
     let b = prompt('Введите число');
     if (isNaN(a || b)) {
-        console.log('Это не число');
+       return 'Одно или оба значения не являются числом';
     } else {
         return a * b
     }
 }
 
 console.log(checkValues());
+
+
+   
 
 
 
