@@ -10,17 +10,17 @@
 // comparison(4 , 4);
 // comparison(6 , 6);
 
+function confirmNumber(n) {
+        if (n % 2 == 0) {
+            console.log('Число четное');
+        } else {
+            console.log('Число нечетное');
+        }
+    }
 
-function value(a) {
-    return a % 2
-}
+    confirmNumber(57); 
+    confirmNumber(34); 
 
-let result = (Number(value(29)));
 
-if (result === 0) {
-    alert('Это число четное')
-} else if (result !== 0) {
-    alert('Это число нечетное');
-} 
 
 
