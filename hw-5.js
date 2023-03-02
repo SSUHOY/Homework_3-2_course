@@ -27,7 +27,7 @@
 //     let result = a**2; 
 //     console.log(result); 
 //   } 
-   
+
 //   value1(54); 
 //   value1(65); 
 //   value1(7);
@@ -36,27 +36,41 @@
 // function value(a){ 
 //     return a**2; 
 //   } 
-   
+
 //   console.log(value(6)); 
 //   console.log(value(62));
 
-let age = prompt('Сколько Вам лет?');
- 
-function askUserAge() { 
-  if (age < 0) { 
-    console.log('Вы ввели неправильное число'); 
-  } else if (age <= 12) { 
-    console.log('Привет, Друг!'); 
-  } else if (age >= 13) { 
-    console.log('Добро пожаловать!'); 
-  } 
-} 
- 
+// ЗАДАНИЕ 4 
+function askUserAge() {
+    let age = prompt('Сколько Вам лет?');
+    if (age < 0) {
+        console.log('Вы ввели неправильное число');
+    } else if (age <= 12) {
+        console.log('Привет, Друг!');
+    } else if (age >= 13) {
+        console.log('Добро пожаловать!');
+    }
+}
+
 askUserAge();
 
+// ЗАДАНИЕ 5
+
+// function checkValues() {
+//     let a = prompt('Введите число');
+//     let b = prompt('Введите число');
+//     if (isNaN(a && b)) {
+//         return 'Это не число';
+//     } else {
+//         return a * b
+//     }
+// }
+
+// console.log(checkValues());
+// console.log(checkValues());
+// console.log(checkValues());
 
 
-  
 
 
 
