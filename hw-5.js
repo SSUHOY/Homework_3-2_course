@@ -56,20 +56,30 @@
 
 // ЗАДАНИЕ 5
 
-function checkValues() {
-    let a = prompt('Введите число');
-    let b = prompt('Введите число');
-    if (isNaN(a || b)) {
-       return 'Одно или оба значения не являются числом';
-    } else {
-        return a * b
-    }
-}
+// function checkValues() {
+//     let a = prompt('Введите число');
+//     let b = prompt('Введите число');
+//     if (isNaN(a || b)) {
+//        return 'Одно или оба значения не являются числом';
+//     } else {
+//         return a * b
+//     }
+// }
 
-console.log(checkValues());
+// console.log(checkValues());
 
+// ЗАДАНИЕ 6
 
-   
+function checkValue() { 
+   let i = prompt('Введите число');
+
+    if (isNaN(i)) { 
+      return 'Переданный параметр не является числом'; 
+    } else { 
+     return Math.pow(i, 3)
+    } 
+  } 
+   console.log(`i в кубе равняется ${checkValue()}`);
 
 
 
