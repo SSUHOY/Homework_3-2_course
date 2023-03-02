@@ -47,15 +47,36 @@
 
     .content {
         &__box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
             &-title {
                 font-size: 32px;
                 line-height: 39px;
             }
 
             &-text {
+                width: 343px;
                 font-size: 14px;
                 line-height: 22px;
+                text-align: center;
             }
         }
     }
+
+    .game {
+        &__logo {
+            width: 344px;
+            height: 236px;
+        }
+    }
+
+    .main {
+        &__footer {
+            width: 375px;
+        }
+    }
+
+
 }
