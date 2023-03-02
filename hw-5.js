@@ -33,13 +33,28 @@
 //   value1(7);
 // 3.2
 
-function value(a){ 
-    return a**2; 
-  } 
+// function value(a){ 
+//     return a**2; 
+//   } 
    
-  console.log(value(6)); 
-  console.log(value(62));
-  
+//   console.log(value(6)); 
+//   console.log(value(62));
+
+let age = prompt('Сколько Вам лет?');
+ 
+function askUserAge() { 
+  if (age < 0) { 
+    console.log('Вы ввели неправильное число'); 
+  } else if (age <= 12) { 
+    console.log('Привет, Друг!'); 
+  } else if (age >= 13) { 
+    console.log('Добро пожаловать!'); 
+  } 
+} 
+ 
+askUserAge();
+
+
 
   
 
