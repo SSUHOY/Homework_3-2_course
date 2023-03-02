@@ -22,16 +22,25 @@
 //     confirmNumber(34); 
 
 // ЗАДАНИЕ 3 
+// 3.1
+// function value1(a) { 
+//     let result = a**2; 
+//     console.log(result); 
+//   } 
+   
+//   value1(54); 
+//   value1(65); 
+//   value1(7);
+// 3.2
 
-function value1(a) { 
-    let result = a**2; 
-    console.log(result); 
+function value(a){ 
+    return a**2; 
   } 
    
-  value1(54); 
-  value1(65); 
-  value1(7);
+  console.log(value(6)); 
+  console.log(value(62));
   
+
   
 
 
