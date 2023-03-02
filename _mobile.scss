@@ -11,6 +11,7 @@
 
     .mainpage {
         justify-content: center;
+
         &__content {
             text-align: center;
         }
@@ -42,5 +43,19 @@
     .gametext {
         font-size: 24px;
         line-height: 32px;
+    }
+
+    .content {
+        &__box {
+            &-title {
+                font-size: 32px;
+                line-height: 39px;
+            }
+
+            &-text {
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
     }
 }

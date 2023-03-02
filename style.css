@@ -103,8 +103,15 @@ button:hover {
 .main__footer {
   height: 800px;
   background: #000915;
+  display: flex;
+  justify-content: space-between;
+  row-gap: 136px;
 }
 
+.content__box {
+  padding-top: 282px;
+  padding-bottom: 282px;
+}
 .content__box-title {
   font-family: "Montserrat";
   font-style: normal;
@@ -112,7 +119,6 @@ button:hover {
   font-size: 48px;
   line-height: 59px;
   color: #FFFFFF;
-  gap: 32px;
 }
 .content__box-text {
   font-family: "Montserrat";
@@ -121,6 +127,13 @@ button:hover {
   font-size: 18px;
   line-height: 32px;
   color: #FFFFFF;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.game__block {
+  padding-top: 234px;
+  padding-bottom: 234px;
 }
 
 @media (max-width: 1024px) {
@@ -182,5 +195,13 @@ button:hover {
   .gametext {
     font-size: 24px;
     line-height: 32px;
+  }
+  .content__box-title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .content__box-text {
+    font-size: 14px;
+    line-height: 22px;
   }
 }/*# sourceMappingURL=style.css.map */
