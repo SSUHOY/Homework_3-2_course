@@ -41,34 +41,32 @@
 //   console.log(value(62));
 
 // ЗАДАНИЕ 4 
-function askUserAge() {
-    let age = prompt('Сколько Вам лет?');
-    if (age < 0) {
-        console.log('Вы ввели неправильное число');
-    } else if (age <= 12) {
-        console.log('Привет, Друг!');
-    } else if (age >= 13) {
-        console.log('Добро пожаловать!');
-    }
-}
-
-askUserAge();
-
-// ЗАДАНИЕ 5
-
-// function checkValues() {
-//     let a = prompt('Введите число');
-//     let b = prompt('Введите число');
-//     if (isNaN(a && b)) {
-//         return 'Это не число';
-//     } else {
-//         return a * b
+// function askUserAge() {
+//     let age = prompt('Сколько Вам лет?');
+//     if (age < 0) {
+//         console.log('Вы ввели неправильное число');
+//     } else if (age <= 12) {
+//         console.log('Привет, Друг!');
+//     } else if (age >= 13) {
+//         console.log('Добро пожаловать!');
 //     }
 // }
 
-// console.log(checkValues());
-// console.log(checkValues());
-// console.log(checkValues());
+// askUserAge();
+
+// ЗАДАНИЕ 5
+
+function checkValues() {
+    let a = prompt('Введите число');
+    let b = prompt('Введите число');
+    if (isNaN(a || b)) {
+        console.log('Это не число');
+    } else {
+        return a * b
+    }
+}
+
+console.log(checkValues());
 
 
 
