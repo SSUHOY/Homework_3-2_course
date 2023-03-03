@@ -121,7 +121,7 @@ button:hover {
         padding-top: 234px;
         padding-bottom: 234px;
         justify-content: space-between;
-        gap: 100px;
+        gap: 130px;
         justify-content: center;
     }
 
@@ -139,6 +139,7 @@ button:hover {
         }
 
         &-text {
+            width: 584px;
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 300;
@@ -148,6 +149,13 @@ button:hover {
             padding-top: 32px;
             padding-bottom: 32px;
         }
+    }
+}
+.footer__icon {
+    &:hover path {
+        transition: .5s;
+        background: #ffe9e9;
+        transform: translate(0, -0.10em);
     }
 }
 
