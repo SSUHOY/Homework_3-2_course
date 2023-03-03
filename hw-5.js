@@ -70,17 +70,26 @@
 
 // ЗАДАНИЕ 6
 
-function checkValue() { 
-   let i = prompt('Введите число');
+function checkValue(i) {
 
-    if (isNaN(i)) { 
-      return 'Переданный параметр не является числом'; 
-    } else { 
-     return Math.pow(i, 3)
-    } 
-  } 
-   console.log(`i в кубе равняется ${checkValue()}`);
 
+  if (isNaN(i)) {
+    return 'Переданный параметр не является числом';
+  } else {
+    return Math.pow(i, 3)
+  }
+}
+console.log(`i в кубе равняется ${checkValue(0)}`);
+console.log(`i в кубе равняется ${checkValue(1)}`);
+console.log(`i в кубе равняется ${checkValue(2)}`);
+console.log(`i в кубе равняется ${checkValue(3)}`);
+console.log(`i в кубе равняется ${checkValue(4)}`);
+console.log(`i в кубе равняется ${checkValue(5)}`);
+console.log(`i в кубе равняется ${checkValue(6)}`);
+console.log(`i в кубе равняется ${checkValue(7)}`);
+console.log(`i в кубе равняется ${checkValue(8)}`);
+console.log(`i в кубе равняется ${checkValue(9)}`);
+console.log(`i в кубе равняется ${checkValue(10)}`);
 
 
 
