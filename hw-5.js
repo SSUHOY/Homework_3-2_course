@@ -70,27 +70,45 @@
 
 // ЗАДАНИЕ 6 :
 
-function checkValue(i) {
+// function checkValue(i) {
 
 
-  if (isNaN(i)) {
-    return 'Переданный параметр не является числом';
-  } else {
-    return Math.pow(i, 3)
-  }
-}
-console.log(`i в кубе равняется ${checkValue(0)}`);
-console.log(`i в кубе равняется ${checkValue(1)}`);
-console.log(`i в кубе равняется ${checkValue(2)}`);
-console.log(`i в кубе равняется ${checkValue(3)}`);
-console.log(`i в кубе равняется ${checkValue(4)}`);
-console.log(`i в кубе равняется ${checkValue(5)}`);
-console.log(`i в кубе равняется ${checkValue(6)}`);
-console.log(`i в кубе равняется ${checkValue(7)}`);
-console.log(`i в кубе равняется ${checkValue(8)}`);
-console.log(`i в кубе равняется ${checkValue(9)}`);
-console.log(`i в кубе равняется ${checkValue(10)}`);
+//   if (isNaN(i)) {
+//     return 'Переданный параметр не является числом';
+//   } else {
+//     return Math.pow(i, 3)
+//   }
+// }
+// console.log(`i в кубе равняется ${checkValue(0)}`);
+// console.log(`i в кубе равняется ${checkValue(1)}`);
+// console.log(`i в кубе равняется ${checkValue(2)}`);
+// console.log(`i в кубе равняется ${checkValue(3)}`);
+// console.log(`i в кубе равняется ${checkValue(4)}`);
+// console.log(`i в кубе равняется ${checkValue(5)}`);
+// console.log(`i в кубе равняется ${checkValue(6)}`);
+// console.log(`i в кубе равняется ${checkValue(7)}`);
+// console.log(`i в кубе равняется ${checkValue(8)}`);
+// console.log(`i в кубе равняется ${checkValue(9)}`);
+// console.log(`i в кубе равняется ${checkValue(10)}`);
 
+// Задание 7 
 
+function monthTake() { 
 
+  let a = Number(prompt('Введите номер месяца, а программа определит сезон'));
+
+  if (a === 1 || a === 2 || a === 12) { 
+    return 'Зима' 
+  } else if (a === 3 || a === 4 || a === 5)  { 
+    return 'Весна' 
+  } else if (a === 6 || a === 7 || a === 8) { 
+    return 'Лето' 
+  } else if (a === 9 || a === 10 || a === 11) { 
+    return 'Осень' 
+  } else { 
+    alert ('Такого месяца нет'); 
+  } 
+}  
+   
+console.log(monthTake());
 
