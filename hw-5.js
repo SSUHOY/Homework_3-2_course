@@ -68,7 +68,7 @@
 
 // console.log(checkValues());
 
-// ЗАДАНИЕ 6
+// ЗАДАНИЕ 6 :
 
 function checkValue(i) {
 
