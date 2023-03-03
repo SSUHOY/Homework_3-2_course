@@ -93,22 +93,28 @@
 
 // Задание 7 
 
-function monthTake() { 
+function monthTake() {
 
-  let a = Number(prompt('Введите номер месяца, а программа определит сезон'));
+  let a = Number(prompt('Введите номер месяца, а программа определит к какому времени года он относится'));
 
-  if (a === 1 || a === 2 || a === 12) { 
-    return 'Зима' 
-  } else if (a === 3 || a === 4 || a === 5)  { 
-    return 'Весна' 
-  } else if (a === 6 || a === 7 || a === 8) { 
-    return 'Лето' 
-  } else if (a === 9 || a === 10 || a === 11) { 
-    return 'Осень' 
-  } else { 
-    alert ('Такого месяца нет'); 
-  } 
-}  
-   
-console.log(monthTake());
+  if (a === 1 || a === 2 || a === 12) {
+    return console.log('Это зима!')
+  } else if (a === 3 || a === 4 || a === 5) {
+    return console.log('Это весна!')
+  } else if (a === 6 || a === 7 || a === 8) {
+    return console.log('Это лето!')
+  } else if (a === 9 || a === 10 || a === 11) {
+    return console.log('Это осень!')
+  } else {
+    console.log('Увы, такого месяца нет');
+  }
+  
+}
+
+
+
+
+
+
+
 
