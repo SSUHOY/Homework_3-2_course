@@ -181,12 +181,21 @@
 
 // Задание 8 
 
-let string = 'abcdef'; 
-string = string.split(''); 
-string.reverse(); 
-console.log(string); 
-string = string.join(''); 
-console.log(string);
+// let string = 'abcdef'; 
+// string = string.split(''); 
+// string.reverse(); 
+// console.log(string); 
+// string = string.join(''); 
+// console.log(string);
+
+// Задание 9 
+
+let arr = [ 
+  [1,2,3], 
+  [4,5,6], 
+]; 
+ 
+console.log(arr.flat());
   
 
 
