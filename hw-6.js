@@ -93,24 +93,38 @@
 
 // Задание 7 
 
-function monthTake() {
+// function monthTake() {
 
-  let a = Number(prompt('Введите номер месяца, а программа определит к какому времени года он относится'));
+//   let a = Number(prompt('Введите номер месяца, а программа определит к какому времени года он относится'));
 
-  if (a === 1 || a === 2 || a === 12) {
-    return alert('Это зима!')
-  } else if (a === 3 || a === 4 || a === 5) {
-    return console.log('Это весна!')
-  } else if (a === 6 || a === 7 || a === 8) {
-    return console.log('Это лето!')
-  } else if (a === 9 || a === 10 || a === 11) {
-    return console.log('Это осень!')
-  } else {
-    console.log('Увы, такого месяца нет');
-  }
+//   if (a === 1 || a === 2 || a === 12) {
+//     return alert('Это зима!')
+//   } else if (a === 3 || a === 4 || a === 5) {
+//     return console.log('Это весна!')
+//   } else if (a === 6 || a === 7 || a === 8) {
+//     return console.log('Это лето!')
+//   } else if (a === 9 || a === 10 || a === 11) {
+//     return console.log('Это осень!')
+//   } else {
+//     console.log('Увы, такого месяца нет');
+//   }
   
-}
+// }
 
+
+// Тема 2.6 Массивы.
+
+// Задание 1 
+ 
+// const numbs = [1, 5, 4, 10, 0, 3]; 
+ 
+// for (let a = 0; a < numbs.length; a++) 
+// { 
+//   if (numbs[a] === 10) break;
+//   console.log(numbs[a]); 
+// } 
+     
+ 
 
 
 
