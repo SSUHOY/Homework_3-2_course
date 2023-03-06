@@ -16,7 +16,7 @@ button:hover {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(img/background_mainpage.png);
   background-position: center;
   background-size: cover;
-  height: 1024px;
+  height: 100vh;
 }
 
 .mainpage {
@@ -68,11 +68,11 @@ button:hover {
   box-shadow: inset 0 0 0 3px #3a7999;
 }
 
-.footer__mainpage {
+.productRange__mainpage {
   background-color: #000915;
   background-size: cover;
 }
-.footer__mainpage-content {
+.productRange__mainpage-content {
   display: flex;
   gap: 32px;
   flex-wrap: wrap;
@@ -100,6 +100,45 @@ button:hover {
   bottom: 64px;
 }
 
+.main__footer {
+  background: #000915;
+}
+.main__footer-box {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 234px;
+  padding-bottom: 234px;
+  justify-content: space-between;
+  gap: 130px;
+  justify-content: center;
+}
+
+.content__box-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.content__box-text {
+  width: 584px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.footer__icon:hover path {
+  transition: 0.5s;
+  background: #ffe9e9;
+  transform: translate(0, -0.1em);
+}
+
 @media (max-width: 1024px) {
   .center {
     padding-left: calc(50% - 393px);
@@ -125,6 +164,19 @@ button:hover {
     font-size: 14px;
     line-height: 22px;
   }
+  .content__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content__box-title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .content__box-text {
+    width: 343px;
+    text-align: center;
+  }
 }
 @media (max-width: 376px) {
   .center {
@@ -149,7 +201,7 @@ button:hover {
     font-size: 14px;
     line-height: 22px;
   }
-  .footer__mainpage {
+  .productRange__mainpage {
     width: 375px;
   }
   .product__img {
@@ -159,5 +211,27 @@ button:hover {
   .gametext {
     font-size: 24px;
     line-height: 32px;
+  }
+  .content__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content__box-title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .content__box-text {
+    width: 343px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .game__logo {
+    width: 344px;
+    height: 236px;
+  }
+  .main__footer {
+    width: 375px;
   }
 }/*# sourceMappingURL=style.css.map */
