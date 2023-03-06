@@ -164,13 +164,20 @@
  
 // Задание 6
 
-let arr = [9, 8, 7, 'a', 6, 5]; 
+// let arr = [9, 8, 7, 'a', 6, 5]; 
  
-arr = arr.sort(); 
-let a = arr.pop(); 
-console.log(a); 
+// arr = arr.sort(); 
+// let a = arr.pop(); 
+// console.log(a); 
 
+// Задание 7
 
+const arr = [9, 8, 7, 6, 5]; 
+ 
+let usersValue = (Number(prompt('Введите число от 1 до 10'))); 
+ 
+let search = arr.includes(usersValue); 
+console.log(search);
   
 
 
