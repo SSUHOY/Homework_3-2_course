@@ -158,10 +158,17 @@
 
 // Задание 5
 
-let arr = [1, 1, 1]; 
-arr.push(2, 2, 2); 
-console.log(arr); 
+// let arr = [1, 1, 1]; 
+// arr.push(2, 2, 2); 
+// console.log(arr); 
  
+// Задание 6
+
+let arr = [9, 8, 7, 'a', 6, 5]; 
+ 
+arr = arr.sort(); 
+let a = arr.pop(); 
+console.log(a); 
 
 
   
