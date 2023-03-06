@@ -125,6 +125,20 @@
 // } 
      
  
+// Задание 2 - нужно ли искать индекс '4' и как его найти?
+ 
+// const numbers = [1, 5, 4, 10, 0, 3]; 
+ 
+// for (i = 0; i < numbers.length; i++) {
+
+//   if (numbers[i] == 4) {
+//     console.log(numbers[i]);
+//     break;
+//   }
+// }
+
+  
+ 
 
 
 
