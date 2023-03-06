@@ -146,15 +146,22 @@
 
 //  Задание 4
 
-let arr = []; 
-for (let i = 0; i < 3; i++) { 
-  arr[i] = []; 
+// let arr = []; 
+// for (let i = 0; i < 3; i++) { 
+//   arr[i] = []; 
   
-  for (let b = 0; b < 3; b++) { 
-    arr[i].push(1); 
-  } 
-}  
+//   for (let b = 0; b < 3; b++) { 
+//     arr[i].push(1); 
+//   } 
+// }  
+// console.log(arr); 
+
+// Задание 5
+
+let arr = [1, 1, 1]; 
+arr.push(2, 2, 2); 
 console.log(arr); 
+ 
 
 
   
