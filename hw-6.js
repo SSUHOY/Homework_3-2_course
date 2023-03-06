@@ -190,15 +190,24 @@
 
 // Задание 9 
 
-let arr = [ 
-  [1,2,3], 
-  [4,5,6], 
-]; 
+// let arr = [ 
+//   [1,2,3], 
+//   [4,5,6], 
+// ]; 
  
-console.log(arr.flat());
+// console.log(arr.flat());
   
+// Задание 10 
 
-
+// let arrRand = [4, 5, 6, 8, 10, 3, 2, 1, 9]; 
+ 
+// for (let i = 0; i < arrRand.length; i++) { 
+//   let c = arrRand[i]; 
+//   let f = arrRand[i + 1]; 
+//   let sum = c + f; 
+//   if (isNaN(sum)) break;
+//   console.log(sum); 
+// }
 
 
 
