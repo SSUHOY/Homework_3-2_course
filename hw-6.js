@@ -137,8 +137,17 @@
 //   }
 // }
 
-  
+// Задание 3 
+
+let numbs = [1, 3, 5, 10, 20]; 
  
+numbs = numbs.join(' '); 
+console.log(numbs); 
+
+  
+
+
+
 
 
 
