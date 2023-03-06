@@ -139,10 +139,23 @@
 
 // Задание 3 
 
-let numbs = [1, 3, 5, 10, 20]; 
+// let numbs = [1, 3, 5, 10, 20]; 
  
-numbs = numbs.join(' '); 
-console.log(numbs); 
+// numbs = numbs.join(' '); 
+// console.log(numbs); 
+
+//  Задание 4
+
+let arr = []; 
+for (let i = 0; i < 3; i++) { 
+  arr[i] = []; 
+  
+  for (let b = 0; b < 3; b++) { 
+    arr[i].push(1); 
+  } 
+}  
+console.log(arr); 
+
 
   
 
