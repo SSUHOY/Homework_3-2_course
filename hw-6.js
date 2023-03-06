@@ -199,15 +199,15 @@
   
 // Задание 10 
 
-// let arrRand = [4, 5, 6, 8, 10, 3, 2, 1, 9]; 
+let arrRand = [4, 5, 6, 8, 10, 3, 2, 1, 9]; 
  
-// for (let i = 0; i < arrRand.length; i++) { 
-//   let c = arrRand[i]; 
-//   let f = arrRand[i + 1]; 
-//   let sum = c + f; 
-//   if (isNaN(sum)) break;
-//   console.log(sum); 
-// }
+for (let i = 0; i < arrRand.length; i++) { 
+  let c = arrRand[i]; 
+  let f = arrRand[i + 1]; 
+  let sum = c + f; 
+  if (isNaN(sum)) break;
+  console.log(sum); 
+}
 
 
 
