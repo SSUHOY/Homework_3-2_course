@@ -71,5 +71,12 @@
 
 // Задание 8 
 
-let myDate = new Date(2023, 2, 9, 18, 43, 40);
-console.log(myDate);
+// let myDate = new Date(2023, 2, 9, 18, 43, 40);
+// console.log(myDate);
+
+// Задание 9 
+
+let currentDate = new Date();
+currentDate.setDate(currentDate.getDate() + 73);
+
+console.log(currentDate);
