@@ -33,17 +33,25 @@
 
 //--вывод бОльшего числа
 
-let arrNumbers = [52, 53, 49, 77, 21, 32];
+// let arrNumbers = [52, 53, 49, 77, 21, 32];
 
-function getMaxOfArr() {
-    return Math.max(...arrNumbers);
+// function getMaxOfArr() {
+//     return Math.max(...arrNumbers);
+// }
+
+// //--вывод меньшего числа
+
+// function getMinOfArr() {
+//     return Math.min(...arrNumbers);
+// }
+
+// console.log(getMinOfArr());
+// console.log(getMaxOfArr());
+
+// Задание 5 
+
+function getRandomInt(minValue, maxValue) {
+    return Math.round(Math.random()*maxValue);
 }
 
-//--вывод меньшего числа
-
-function getMinOfArr() {
-    return Math.min(...arrNumbers);
-}
-
-console.log(getMinOfArr());
-console.log(getMaxOfArr());
+console.log(getRandomInt(0,10));
