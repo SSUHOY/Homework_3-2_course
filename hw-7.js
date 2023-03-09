@@ -5,7 +5,7 @@
 
 // console.log(stringToUpperCase);
 
-// Задание 2 - ВОПРОС   как вернуть в 1 элемент массива - в консоли выдает два
+// Задание 2 - ВОПРОС   как вернуть в один элемент массива - в консоли выдает два массива
 
 // function stringGet() {
 //     const searchStart = (['Осадки', 'Температура', 'Освещенность', 'Давление']);
@@ -22,8 +22,28 @@
 
 // Задание 3 
 
-let number = 32.58884;
+// let number = 32.58884;
 
-console.log(Math.floor(number));
-console.log(Math.ceil(number));
-console.log(Math.round(number));
+// console.log(Math.floor(number));
+// console.log(Math.ceil(number));
+// console.log(Math.round(number));
+
+// Задание 4 
+
+
+//--вывод бОльшего числа
+
+let arrNumbers = [52, 53, 49, 77, 21, 32];
+
+function getMaxOfArr() {
+    return Math.max(...arrNumbers);
+}
+
+//--вывод меньшего числа
+
+function getMinOfArr() {
+    return Math.min(...arrNumbers);
+}
+
+console.log(getMinOfArr());
+console.log(getMaxOfArr());
