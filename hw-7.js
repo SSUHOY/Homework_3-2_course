@@ -59,12 +59,17 @@
 
 // Задание 7
 
-function getRandomInt() {
+// function getRandomInt() {
 
-let i = prompt('Введите первое число');
-let c = prompt('Введите второе число');
+// let i = prompt('Введите первое число');
+// let c = prompt('Введите второе число');
 
-return Math.round(Math.random() * Math.max(i,c));
+// return Math.round(Math.random() * Math.max(i,c));
 
-}
-console.log(getRandomInt());
+// }
+// console.log(getRandomInt());
+
+// Задание 8 
+
+let myDate = new Date(2023, 2, 9, 18, 43, 40);
+console.log(myDate);
