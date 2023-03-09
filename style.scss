@@ -119,13 +119,23 @@ button:hover {
         display: flex;
         flex-wrap: wrap;
         padding-top: 234px;
-        padding-bottom: 234px;
+        padding-bottom: 473px;
         justify-content: space-between;
         gap: 130px;
         justify-content: center;
+       &_sec {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-bottom: 240px;
+        flex-wrap: wrap;
+        gap: 130px;
+        justify-content: center;
+       }
     }
 
 }
+
+
 
 .content {
     &__box {
@@ -151,12 +161,17 @@ button:hover {
         }
     }
 }
+
 .footer__icon {
     &:hover path {
         transition: .5s;
         background: #ffe9e9;
         transform: translate(0, -0.10em);
     }
+}
+
+.sec_game {
+    flex-direction: row-reverse
 }
 
 @import 'vars';
