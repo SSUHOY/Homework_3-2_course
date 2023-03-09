@@ -57,19 +57,14 @@
 // console.log(getRandomInt(0,10));
 
 
-// Задание 6
-
-
-
-
 // Задание 7
 
-// function getRandomInt() {
+function getRandomInt() {
 
-// let i = prompt('Введите первое число');
-// let c = prompt('Введите второе число');
+let i = prompt('Введите первое число');
+let c = prompt('Введите второе число');
 
-// return Math.round(Math.random() * Math.max(i,c));
+return Math.round(Math.random() * Math.max(i,c));
 
-// }
-// console.log(getRandomInt());
+}
+console.log(getRandomInt());
