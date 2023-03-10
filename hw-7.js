@@ -110,3 +110,9 @@
 // let fullDate = 'Сегодня: ' + myDate.getDate() + " " + months[myDate.getMonth()] + " " + myDate.getFullYear() + ", " + days[myDate.getDay()];
 
 // console.log(fullDate);
+
+// Задание 11 
+
+let arrWords = [' Яблоко ', ' Груша ', ' Дыня ', ' Виноград ', ' Персик ', ' Апельсин ', ' Мандарин '];
+arrWords = arrWords.sort(() => Math.random() - 0.5);
+let arrWordsAlert = alert(arrWords);
