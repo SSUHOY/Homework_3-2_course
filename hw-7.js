@@ -56,7 +56,23 @@
 
 // console.log(getRandomInt(0,10));
 
-// Задание 6 - СДЕЛАТЬ
+// Задание 6 
+// let arrInt = [];
+// let Int = (Number(prompt('Введите число'))); 
+// let IntDivision = Math.round(Int / 2);
+
+// function generateRandom() {
+//     return Math.round(Math.random() * Int);
+// }
+
+// function generateArr() {
+//     for (let i = 0; i < IntDivision; i++) {
+//         arrInt.push(generateRandom());
+//     }
+// console.log(arrInt);
+// }
+
+// console.log(generateArr());
 
 
 // Задание 7
@@ -85,12 +101,12 @@
 
 // Задание 10 
 
-const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
-const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
-"Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+// const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+// const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+// "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
 
-let myDate = new Date(2005, 9, 10);
+// let myDate = new Date(2005, 9, 10);
 
-let fullDate = 'Сегодня: ' + myDate.getDate() + " " + months[myDate.getMonth()] + " " + myDate.getFullYear() + ", " + days[myDate.getDay()];
+// let fullDate = 'Сегодня: ' + myDate.getDate() + " " + months[myDate.getMonth()] + " " + myDate.getFullYear() + ", " + days[myDate.getDay()];
 
-console.log(fullDate);
+// console.log(fullDate);
