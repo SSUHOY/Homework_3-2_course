@@ -119,8 +119,8 @@ function askUserGame() {
     arrWords = arrWords.sort(() => Math.random() - 0.5);
     let arrWordsAlert = alert(arrWords);
 
-    let askUserFirstEl = prompt('Чему равнялся первый элемент массива?');
-    let askUserSecondEl = prompt('Чему равнялся последний элемент массива?');
+    let askUserFirstEl = prompt('Какое было первое слово?');
+    let askUserSecondEl = prompt('Какое было второе слово?');
 
     let resultFirst = arrWords.filter(el => el.toLowerCase() === askUserFirstEl.toLowerCase());
     let resultSecond = arrWords.filter(el => el.toLowerCase() === askUserSecondEl.toLowerCase());
