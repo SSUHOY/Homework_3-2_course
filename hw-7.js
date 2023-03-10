@@ -10,7 +10,7 @@
 // function stringGet() {
 //     const searchStart = (['Осадки', 'Температура', 'Освещенность', 'Давление']);
 //     const search = 'ос';
-   
+
 //     searchStart.forEach((searchStart) => {
 //         if (searchStart.toLowerCase().startsWith(search.toLowerCase()))  {
 //             console.log(new Array(searchStart));
@@ -113,6 +113,29 @@
 
 // Задание 11 
 
-let arrWords = [' Яблоко ', ' Груша ', ' Дыня ', ' Виноград ', ' Персик ', ' Апельсин ', ' Мандарин '];
-arrWords = arrWords.sort(() => Math.random() - 0.5);
-let arrWordsAlert = alert(arrWords);
+function askUserGame() {
+
+    let arrWords = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    arrWords = arrWords.sort(() => Math.random() - 0.5);
+    let arrWordsAlert = alert(arrWords);
+
+    let askUserFirstEl = prompt('Чему равнялся первый элемент массива?');
+    let askUserSecondEl = prompt('Чему равнялся последний элемент массива?');
+
+    let resultFirst = arrWords.filter(el => el.toLowerCase() === askUserFirstEl.toLowerCase());
+    let resultSecond = arrWords.filter(el => el.toLowerCase() === askUserSecondEl.toLowerCase());
+
+    resultFirst = resultFirst.toString();
+    resultSecond = resultSecond.toString();
+
+    if (arrWords[0] === resultFirst && arrWords[6] === resultSecond) {
+        return alert('Ответ верный! Поздравляем!');
+    } else if (arrWords[0] === resultFirst || arrWords[6] === resultSecond) {
+        alert('Вы были близки к победе!');
+    } else {
+        alert('Неверно!');
+    }
+};
+askUserGame();
+
+
