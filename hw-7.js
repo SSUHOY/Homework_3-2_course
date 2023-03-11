@@ -7,18 +7,16 @@
 
 // Задание 2 - ВОПРОС   как вернуть в один элемент массива - в консоли выдает два массива
 
-// function stringGet() {
-//     const searchStart = (['Осадки', 'Температура', 'Освещенность', 'Давление']);
-//     const search = 'ос';
+function stringGet() {
+  const searchStart = ['Осадки', 'Температура', 'Освещенность', 'Давление'];
+  const search = 'ос';
 
-//     searchStart.forEach((searchStart) => {
-//         if (searchStart.toLowerCase().startsWith(search.toLowerCase()))  {
-//             console.log(new Array(searchStart));
-//         }
-// });
-// }
+  return searchStart.filter((el) => el.toLowerCase().includes(search.toLowerCase()));
+    
+};
 
-// console.log(stringGet());
+
+console.log(stringGet());
 
 // Задание 3 
 
@@ -113,47 +111,46 @@
 
 // Задание 11 
 
-function askUserGame() {
+// function askUserGame() {
 
-    let arrWords = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
-    arrWords = arrWords.sort(() => Math.random() - 0.5);
-    let arrWordsAlert = alert(arrWords);
+//     let arrWords = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+//     arrWords = arrWords.sort(() => Math.random() - 0.5);
+//     let arrWordsAlert = alert(arrWords);
 
-    let askUserFirstEl = prompt('Какое было первое слово?');
-    let askUserSecondEl = prompt('Какое было второе слово?');
+//     let askUserFirstEl = prompt('Какое было первое слово?');
+//     let askUserSecondEl = prompt('Какое было второе слово?');
 
-    let resultFirst = arrWords.filter(el => el.toLowerCase() === askUserFirstEl.toLowerCase());
-    let resultSecond = arrWords.filter(el => el.toLowerCase() === askUserSecondEl.toLowerCase());
+    // let resultFirst = arrWords.filter(el => el.toLowerCase() === askUserFirstEl.toLowerCase());
+    // let resultSecond = arrWords.filter(el => el.toLowerCase() === askUserSecondEl.toLowerCase());
 
-    resultFirst = resultFirst.toString();
-    resultSecond = resultSecond.toString();
+//     resultFirst = resultFirst.toString();
+//     resultSecond = resultSecond.toString();
 
-    if (arrWords[0] === resultFirst && arrWords[6] === resultSecond) {
-        return alert('Ответ верный! Поздравляем!');
-    } else if (arrWords[0] === resultFirst || arrWords[6] === resultSecond) {
-        alert('Вы были близки к победе!');
-    } else {
-        alert('Неверно!');
-    }
-};
+//     if (arrWords[0] === resultFirst && arrWords[6] === resultSecond) {
+//         return alert('Ответ верный! Поздравляем!');
+//     } else if (arrWords[0] === resultFirst || arrWords[6] === resultSecond) {
+//         alert('Вы были близки к победе!');
+//     } else {
+//         alert('Неверно!');
+//     }
+// };
 
-function monthTake() {
+// function monthTake() {
 
-    let a = Number(prompt('Введите номер месяца, а программа определит к какому времени года он относится'));
+//     let a = Number(prompt('Введите номер месяца, а программа определит к какому времени года он относится'));
   
-    if (a === 1 || a === 2 || a === 12) {
-      return console.log('Это зима!')
-    } else if (a === 3 || a === 4 || a === 5) {
-      return console.log('Это весна!')
-    } else if (a === 6 || a === 7 || a === 8) {
-      return console.log('Это лето!')
-    } else if (a === 9 || a === 10 || a === 11) {
-      return console.log('Это осень!')
-    } else {
-      console.log('Увы, такого месяца нет');
-    }
+//     if (a === 1 || a === 2 || a === 12) {
+//       return console.log('Это зима!')
+//     } else if (a === 3 || a === 4 || a === 5) {
+//       return console.log('Это весна!')
+//     } else if (a === 6 || a === 7 || a === 8) {
+//       return console.log('Это лето!')
+//     } else if (a === 9 || a === 10 || a === 11) {
+//       return console.log('Это осень!')
+//     } else {
+//       console.log('Увы, такого месяца нет');
+//     }
   
-  }
+//   }
   
-
 
