@@ -7,16 +7,16 @@
 
 // Задание 2 - ВОПРОС   как вернуть в один элемент массива - в консоли выдает два массива
 
-function stringGet() {
-  const searchStart = ['Осадки', 'Температура', 'Освещенность', 'Давление'];
-  const search = 'ос';
+// function stringGet() {
+//   const searchStart = ['Осадки', 'Температура', 'Освещенность', 'Давление'];
+//   const search = 'ос';
 
-  return searchStart.filter((el) => el.toLowerCase().includes(search.toLowerCase()));
+//   return searchStart.filter((el) => el.toLowerCase().includes(search.toLowerCase()));
     
-};
+// };
 
 
-console.log(stringGet());
+// console.log(stringGet());
 
 // Задание 3 
 
@@ -48,11 +48,11 @@ console.log(stringGet());
 
 // Задание 5 
 
-// function getRandomInt(minValue, maxValue) {
-//     return Math.round(Math.random()*maxValue);
-// }
+function getRandomInt(minValue, maxValue) {
+    return Math.round(Math.random() * (maxValue - minValue) + minValue);
+}
 
-// console.log(getRandomInt(0,10));
+console.log(getRandomInt(1,10));
 
 // Задание 6 
 // let arrInt = [];
