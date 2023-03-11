@@ -48,11 +48,11 @@
 
 // Задание 5 
 
-function getRandomInt(minValue, maxValue) {
-    return Math.round(Math.random() * (maxValue - minValue) + minValue);
-}
+// function getRandomInt(minValue, maxValue) {
+//     return Math.round(Math.random() * (maxValue - minValue) + minValue);
+// }
 
-console.log(getRandomInt(1,10));
+// console.log(getRandomInt(1,10));
 
 // Задание 6 
 // let arrInt = [];
@@ -75,15 +75,15 @@ console.log(getRandomInt(1,10));
 
 // Задание 7
 
-// function getRandomInt() {
+function getRandomInt() {
 
-// let i = prompt('Введите первое число');
-// let c = prompt('Введите второе число');
+let i = prompt('Введите первое число');
+let c = prompt('Введите второе число');
 
-// return Math.round(Math.random() * Math.max(i,c));
+return Math.round(Math.random() * (Math.max(i, c) - Math.min(i, c)) + Math.min(i,c));
 
-// }
-// console.log(getRandomInt());
+}
+console.log(getRandomInt());
 
 // Задание 8 
 
