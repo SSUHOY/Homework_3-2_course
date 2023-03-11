@@ -75,15 +75,15 @@
 
 // Задание 7
 
-function getRandomInt() {
+// function getRandomInt() {
 
-let i = prompt('Введите первое число');
-let c = prompt('Введите второе число');
+// let i = prompt('Введите первое число');
+// let c = prompt('Введите второе число');
 
-return Math.round(Math.random() * (Math.max(i, c) - Math.min(i, c)) + Math.min(i,c));
+// return Math.round(Math.random() * (Math.max(i, c) - Math.min(i, c)) + Math.min(i,c));
 
-}
-console.log(getRandomInt());
+// }
+// console.log(getRandomInt());
 
 // Задание 8 
 
@@ -111,46 +111,41 @@ console.log(getRandomInt());
 
 // Задание 11 
 
-// function askUserGame() {
+function askUserGame() {
 
-//     let arrWords = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
-//     arrWords = arrWords.sort(() => Math.random() - 0.5);
-//     let arrWordsAlert = alert(arrWords);
+    let arrWords = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    arrWords = arrWords.sort(() => Math.random() - 0.5);
+    let arrWordsAlert = alert(arrWords);
 
-//     let askUserFirstEl = prompt('Какое было первое слово?');
-//     let askUserSecondEl = prompt('Какое было второе слово?');
+    let askUserFirstEl = prompt('Какое было первое слово?');
+    let askUserSecondEl = prompt('Какое было второе слово?');;
 
-    // let resultFirst = arrWords.filter(el => el.toLowerCase() === askUserFirstEl.toLowerCase());
-    // let resultSecond = arrWords.filter(el => el.toLowerCase() === askUserSecondEl.toLowerCase());
+    if (arrWords[0].toLowerCase() === askUserFirstEl.toLowerCase() && arrWords[6].toLowerCase() === askUserSecondEl.toLowerCase()) {
+        return alert('Ответ верный! Поздравляем!');
+    } else if (arrWords[0].toLowerCase() === askUserFirstEl.toLowerCase() || arrWords[6].toLowerCase() === askUserSecondEl.toLowerCase()) {
+        alert('Вы были близки к победе!');
+    } else {
+        alert('Неверно!');
+    }
+};
 
-//     resultFirst = resultFirst.toString();
-//     resultSecond = resultSecond.toString();
 
-//     if (arrWords[0] === resultFirst && arrWords[6] === resultSecond) {
-//         return alert('Ответ верный! Поздравляем!');
-//     } else if (arrWords[0] === resultFirst || arrWords[6] === resultSecond) {
-//         alert('Вы были близки к победе!');
-//     } else {
-//         alert('Неверно!');
-//     }
-// };
+function monthTake() {
 
-// function monthTake() {
-
-//     let a = Number(prompt('Введите номер месяца, а программа определит к какому времени года он относится'));
+    let a = Number(prompt('Введите номер месяца, а программа определит к какому времени года он относится'));
   
-//     if (a === 1 || a === 2 || a === 12) {
-//       return console.log('Это зима!')
-//     } else if (a === 3 || a === 4 || a === 5) {
-//       return console.log('Это весна!')
-//     } else if (a === 6 || a === 7 || a === 8) {
-//       return console.log('Это лето!')
-//     } else if (a === 9 || a === 10 || a === 11) {
-//       return console.log('Это осень!')
-//     } else {
-//       console.log('Увы, такого месяца нет');
-//     }
+    if (a === 1 || a === 2 || a === 12) {
+      return console.log('Это зима!')
+    } else if (a === 3 || a === 4 || a === 5) {
+      return console.log('Это весна!')
+    } else if (a === 6 || a === 7 || a === 8) {
+      return console.log('Это лето!')
+    } else if (a === 9 || a === 10 || a === 11) {
+      return console.log('Это осень!')
+    } else {
+      console.log('Увы, такого месяца нет');
+    }
   
-//   }
+  }
   
 
