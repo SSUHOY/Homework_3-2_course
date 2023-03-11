@@ -50,7 +50,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-
+            padding-bottom: 64px;
             &-title {
                 font-size: 32px;
                 line-height: 39px;
@@ -75,8 +75,22 @@
     .main {
         &__footer {
             width: 375px;
+            &-box{
+                padding-top: 100px;
+                padding-bottom: 136px;
+                gap: 0px;
+                &_sec {
+                    padding-bottom: 136px;
+                    gap: 0px;
+                }
+            }
+            
         }
     }
 
+
+svg {
+    width: 344px;
+}
 
 }
