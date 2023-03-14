@@ -87,15 +87,35 @@
 
 // Задание 4
 
-let currentDate = new Date();
+// let currentDate = new Date();
 
-let timerDate = setTimeout(function Date() {
-    timerDate = setTimeout(Date, 3000);
-    currentDate.setSeconds(currentDate.getSeconds() + 3)
-    let dateToString = currentDate.toString()
-    console.log(dateToString);
-});
+// let timerDate = setTimeout(function Date() {
+//     timerDate = setTimeout(Date, 3000);
+//     currentDate.setSeconds(currentDate.getSeconds() + 3)
+//     let dateToString = currentDate.toString()
+//     console.log(dateToString);
+// });
 
 
-setTimeout(() => { clearInterval(timerDate); console.log('Прошло 30 секунд'); }, 30000);
+// setTimeout(() => { clearInterval(timerDate); console.log('Прошло 30 секунд'); }, 30000);
+
+// Задание 5
+
+function calling() {
+    console.log('Звоню!')
+};
+
+function beeps(callback) {
+    setTimeout(() => {
+        console.log('Идут гудки...')
+        return callback();
+    }, 1000);
+}
+
+function talk() {
+    console.log('Разговор')
+}
+
+calling();
+beeps(talk);
 
