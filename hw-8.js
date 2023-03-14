@@ -62,25 +62,40 @@
 // users.sort(compareUser);
 // console.log(users);
 
-// Задание 3 
+// // Задание 3 
 
-let arr = [1, '4', 9, 'two'];
-let arrSecond = [1, '4', false, 9, 'two'];
+// let arr = [1, '4', 9, 'two'];
+// let arrSecond = [1, '4', false, 9, 'two'];
 
-function each(callback) {
-    callback();
-}
+// function each(callback) {
+//     callback();
+// }
 
-function reversedArrFunc() {
-    let reverseArr = arr.reverse();
-    console.log(arr);
-}
+// function reversedArrFunc() {
+//     let reverseArr = arr.reverse();
+//     console.log(arr);
+// }
 
-function toNumberArrFunc() {
-    let toNumberArr = arrSecond.map((el) => +el).filter(item => item !== isNaN);
-    let toNumberArrPop = toNumberArr.pop();
-    console.log(toNumberArr);
-}
+// function toNumberArrFunc() {
+//     let toNumberArr = arrSecond.map((el) => +el).filter(item => item !== isNaN);
+//     let toNumberArrPop = toNumberArr.pop();
+//     console.log(toNumberArr);
+// }
 
-each(reversedArrFunc);
-each(toNumberArrFunc);
+// each(reversedArrFunc);
+// each(toNumberArrFunc);
+
+// Задание 4
+
+let currentDate = new Date();
+
+let timerDate = setTimeout(function Date() {
+    timerDate = setTimeout(Date, 3000);
+    currentDate.setSeconds(currentDate.getSeconds() + 3)
+    let dateToString = currentDate.toString()
+    console.log(dateToString);
+});
+
+
+setTimeout(() => { clearInterval(timerDate); console.log('Прошло 30 секунд'); }, 30000);
+
